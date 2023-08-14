@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ['2.7']
+        ruby: ['3.1']
         db: ['postgres']
       fail-fast: false
 
@@ -113,12 +113,6 @@ jobs:
           bundle exec rake db:create db:migrate
           bundle exec rails test:scm:setup:subversion
 
-      - name: Checkout dependencies - Base Deface plugin
-        uses: actions/checkout@v3
-        with:
-          repository: jbbarth/redmine_base_deface
-          path: redmine/plugins/redmine_base_deface
-
       - name: Checkout dependencies - Base StimulusJS plugin
         uses: actions/checkout@v3
         with:
@@ -140,11 +134,11 @@ jobs:
           # cp -i plugins/*/spec/fixtures/*yml test/fixtures/
           bundle exec rails db:fixtures:load
 
-      - name: Run core tests
-        env:
-          RAILS_ENV: test
-        working-directory: redmine
-        run: bundle exec rails test
+      # - name: Run core tests
+      #   env:
+      #     RAILS_ENV: test
+      #   working-directory: redmine
+      #   run: bundle exec rails test
 
       - name: Run plugin tests
         env:

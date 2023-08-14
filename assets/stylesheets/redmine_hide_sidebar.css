@@ -46,7 +46,6 @@
 }
 
 body #content.sidebar_hidden {
-  width: auto;
   margin-right: 0;
 }
 
@@ -61,7 +60,6 @@ body #content.sidebar_hidden {
   }
 
   body #content {
-    width: auto;
     margin-right: 0;
   }
 }
