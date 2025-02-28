@@ -1,55 +1,53 @@
 This plugin was originally developed by Berk Demirkır and hosted in this repo: https://github.com/bdemirkir/sidebar_hide
 The repository has since been deleted so we are now maintaining this plugin here.
 
-Hide Sidebar
-====================
+# Hide Sidebar
 
 Adds a tiny hide button for sidebar of Redmine
 
-Features
-====================
+# Features
 
- * Using cookie to remember status of the sidebar (hidden or not)
+- Using cookie to remember status of the sidebar (hidden or not)
 
-Installation
-====================
+# Installation
 
 Change to redmine/plugins folder and run:
+
 ```bash
 git clone https://github.com/tools-aoeur/redmine_hide_sidebar.git
 ```
 
-Tested with...
-====================
+# Tested with...
 
 Redmine:
 
-|Plugin branch| Redmine Version | Test Status       |
-|-------------|-----------------|-------------------|
-|redmine-5.0  | 5.0.4           | [![5.0.4][1]][2]  |
+| Plugin branch | Redmine Version | Test Status      |
+| ------------- | --------------- | ---------------- |
+| redmine-5.1   | 5.1.6           | [![5.1.6][1]][2] |
 
-[1]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions/workflows/5_0_4.yml/badge.svg
+[1]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions/workflows/5_1_6.yml/badge.svg
 [2]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions
 
 Themes:
- * Default themes
- * Alternate
- * Classic 
- * [Gitmike](https://github.com/makotokw/redmine-theme-gitmike)
- * [RedmineCRM Themes](http://redminecrm.com/projects/themes):
-   * A1
-   * Highrise
-   * Coffee
-   * RedmineCRM
-   * Circle
+
+- Default themes
+- Alternate
+- Classic
+- [Gitmike](https://github.com/makotokw/redmine-theme-gitmike)
+- [RedmineCRM Themes](http://redminecrm.com/projects/themes):
+  - A1
+  - Highrise
+  - Coffee
+  - RedmineCRM
+  - Circle
 
 Browsers:
- * Google Chrome >=28
- * Firefox >=22
- * Internet Explorer 7-8-9-10
 
-License
-====================
+- Google Chrome >=28
+- Firefox >=22
+- Internet Explorer 7-8-9-10
+
+# License
 
 (The MIT License)
 
