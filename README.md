@@ -7,7 +7,7 @@ Adds a tiny hide button for sidebar of Redmine
 
 # Features
 
-- Using cookie to remember status of the sidebar (hidden or not)
+- Using local storage to remember status of the sidebar (hidden or not)
 
 # Installation
 
@@ -17,15 +17,15 @@ Change to redmine/plugins folder and run:
 git clone https://github.com/tools-aoeur/redmine_hide_sidebar.git
 ```
 
-# Tested with...
+# Test environment
 
 Redmine:
 
 | Plugin branch | Redmine Version | Test Status      |
 | ------------- | --------------- | ---------------- |
-| redmine-5.1   | 5.1.6           | [![5.1.6][1]][2] |
+| redmine-5.1   | 5.1.7           | [![5.1.7][1]][2] |
 
-[1]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions/workflows/5_1_6.yml/badge.svg
+[1]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions/workflows/5_1_7.yml/badge.svg
 [2]: https://github.com/tools-aoeur/redmine_hide_sidebar/actions
 
 Themes:
@@ -40,12 +40,6 @@ Themes:
   - Coffee
   - RedmineCRM
   - Circle
-
-Browsers:
-
-- Google Chrome >=28
-- Firefox >=22
-- Internet Explorer 7-8-9-10
 
 # License
 
