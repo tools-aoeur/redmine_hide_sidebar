@@ -5,10 +5,10 @@ Redmine::Plugin.register :redmine_hide_sidebar do
   name 'Sidebar Hide Plugin'
   author 'Berk Demirkır (orig)'
   description 'This plugin provides ability to hide sidebar'
-  version '5.1.0'
+  version '6.1.0'
 
   url 'https://github.com/tools-aoeur/redmine_hide_sidebar'
   author_url 'https://github.com/tools-aoeur'
 
-  requires_redmine version_or_higher: '5.1.0'
+  requires_redmine version_or_higher: '6.1.0'
 end
